@@ -1,0 +1,10 @@
+{
+    "name": "a.pop/blog_pdo",
+    "authors": [
+        {
+            "name": "alex pop",
+            "email": "alepop1998@gmail.com"
+        }
+    ],
+    "require": {}
+}
