@@ -19,35 +19,42 @@
 <!-- menu utenti -->
 <li class="nav-item dropdown">
 	<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Utenti</a>
-    
+
 	<div class="dropdown-menu">
 		<a class="dropdown-item" href="?url=users/index">Elenco</a>
 		<a class="dropdown-item" href="?url=users/insert">Aggiungi</a>
 	</div>
       </li>
-	  
+
 	<!-- menu Categorie -->
-	  
+
 	<li class="nav-item dropdown">
 		  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categorie</a>
-    
+
 		<div class="dropdown-menu">
 					<a class="dropdown-item" href="?url=categories/index">Elenco</a>
 					<a class="dropdown-item" href="?url=categories/insert">Aggiungi</a>
 		</div>
 	</li>
-	  
+
 	<!-- menu Post -->
-	  
+
 	<li class="nav-item dropdown">
 		  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Post</a>
-    
+
 		<div class="dropdown-menu">
 					<a class="dropdown-item" href="?url=posts/index">Elenco</a>
 					<a class="dropdown-item" href="?url=posts/insert">Aggiungi</a>
 		</div>
 	</li>
-	  
+
+	<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">login</a>
+			<div class="dropdown-menu">
+						<a class="dropdown-item" href="?url=login/login.php">login</a>
+						<a class="dropdown-item" href="?url=categories/insert">Aggiungi</a>
+			</div>
+		</li>
 
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -57,6 +64,4 @@
   </div>
 </nav>
 
-<div class="container"> 
-
-	
+<div class="container">

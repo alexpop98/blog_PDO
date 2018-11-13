@@ -11,8 +11,7 @@
     <?php foreach ($data['categorie'] as $cat) : ?>
         <tr>
         <td class="nomecat"><?= $cat ?></td>
-        <td><button class="btn btn-danger anvedi" title="<?= $cat->id ?>">elimina</button></td>
+        <td><p><a href="?url=categories/delete/<?= $cat->id ?>" class="btn btn-danger">elimina</a></p></td>
         </tr>
     <?php endforeach; ?>
 </table>
-

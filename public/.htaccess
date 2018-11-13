@@ -1,9 +1,9 @@
-# disabilita la content negotiation
+﻿# disabilita la content negotiation
 Options -MultiViews
 
 RewriteEngine On 
 
-RewriteBase /coding/public
+RewriteBase /blogPHP/public
 
 # esegui solo se la regola è vera (-d directory, -f file regolare, ! negazione)
 RewriteCond %{REQUEST_FILENAME} !-d

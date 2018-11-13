@@ -5,13 +5,13 @@
 
 /**parametridiconnessione */
 define('DB_HOST', "localhost");
-define('DB_USER', "its_2018");
-define('DB_PASS', "its_2018!ITS");
-define('DB_NAME', "its_2018");
+define('DB_USER', "root");
+define('DB_PASS', "");
+define('DB_NAME', "blog");
 
 /** altri settaggi globali */
-define("TITOLO", 'Linguaggi OOP');
-define("SOTTOTITOLO", 'Un blog per te');
+define("TITOLO", 'JUVENTUS');
+define("SOTTOTITOLO", 'sei la juve storia di quel che sarò');
 define("MAX_POST_PAGE", 10);
 
 // ...

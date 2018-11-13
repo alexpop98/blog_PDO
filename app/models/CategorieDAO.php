@@ -64,7 +64,7 @@ class CategorieDAO extends Connessione
 
         try {
 
-            $query = "DELETE FROM categorie where id = :id ";
+            $query = "DELETE FROM categorie where id = :id " ;
 
             $elencoCategorie = parent::getConnessione()->prepare($query);
 
@@ -73,7 +73,7 @@ class CategorieDAO extends Connessione
             $elencoCategorie->execute();
 
             return true;
-
+            echo "categoria cancellata";
         } catch (PDOException $e) {
             echo $e->getMessage();
         }
@@ -86,7 +86,7 @@ class CategorieDAO extends Connessione
             $stmt = parent::getConnessione()->prepare("INSERT INTO categorie (categoria) VALUES(:categoria)");
 
             $categoria = $cat->categoria;
-            
+
 
             $stmt->bindParam(":categoria", $categoria, PDO::PARAM_STR);
 
